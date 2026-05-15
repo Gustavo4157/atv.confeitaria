@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doce de Quebrada | 061</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        :root {
+            --vermelho: #cc0000;
+            --preto: #1a1a1a;
+            --cinza: #f4f4f4;
+        }
+
+        body {
+            background-color: white;
+            color: var(--preto);
+            line-height: 1.5;
+        }
+
+        header {
+            background: var(--vermelho);
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .hero {
+            padding: 40px 20px;
+            text-align: center;
+            background: var(--cinza);
+        }
+
+        .hero img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 3px solid var(--vermelho);
+        }
+
+        section {
+            padding: 30px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: var(--vermelho);
+            border-bottom: 2px solid var(--vermelho);
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .cardapio-simples {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .cardapio-simples li {
+            padding: 12px 0;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .btn {
+            display: block;
+            background: #25d366;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px auto;
+            max-width: 250px;
+            text-align: center;
+        }
+
+        footer {
+            background: var(--preto);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Doce de Quebrada 🍩</h1>
+        <nav>
+            <a href="#historia">Nossa Caminhada</a>
+            <a href="#menu">O que tem</a>
+            <a href="#contato">Pedir</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1000" alt="Bolo de chocolate">
+            <p>O açúcar que o seu dia merece, sem enrolação.</p>
+        </section>
+
+        <section id="historia">
+            <h2>Qual é a nossa?</h2>
+            <p>Tudo começou com um forno velho, uma batedeira emprestada e uma vontade gigante de adoçar os rolês aqui no DF. O <strong>Doce de Quebrada</strong> não nasceu em vitrine de shopping, nasceu na raça, testando receita no fim de semana pra galera do setor.</p>
+            <br>
+            <p>A gente acredita que doce bom é doce que te faz sorrir sem pesar no bolso. Nossa confeitaria é raiz: ingrediente de qualidade, recheio de verdade e aquele gostinho de "quero mais" que só quem é daqui entende.</p>
+        </section>
+
+        <section id="menu">
+            <h2>O que tá saindo:</h2>
+            <ul class="cardapio-simples">
+                <li><span>Bolo de Pote (Chocolate/Ninho)</span> <strong>R$ 12,00</strong></li>
+                <li><span>Brownie Especial</span> <strong>R$ 8,00</strong></li>
+                <li><span>Cento de Salgado (Fritinho na hora)</span> <strong>R$ 60,00</strong></li>
+                <li><span>Copo da Felicidade</span> <strong>R$ 15,00</strong></li>
+            </ul>
+        </section>
+
+        <section id="contato" style="text-align: center;">
+            <h2>Bateu a fome?</h2>
+            <p>Manda um salve no Zap. A gente desenrola a entrega rapidinho!</p>
+            <a href="#" class="btn">CHAMAR NO WHATSAPP</a>
+            <p>📍 Entregas em Taguatinga, Ceilândia e região.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Doce de Quebrada | 061</p>
+        <p>A confeitaria mais braba do quadradinho. 🔥</p>
+    </footer>
+
+</body>
+</html>
